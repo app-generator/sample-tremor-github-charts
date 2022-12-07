@@ -128,7 +128,9 @@ const UserProfile = () => {
 				</div>
 			</main>
 			<footer>
-				<p>Built using React GitHub API</p>
+				<p>
+					&copy; <a href="https://appseed.us/" rel="noreferrer" target="_blank">AppSeed</a> - MIT License
+				</p>
 			</footer>
 		</div>
 	);

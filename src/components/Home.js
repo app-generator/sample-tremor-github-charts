@@ -22,6 +22,11 @@ const Home = () => {
 					name='username'
 					id='username'
 				/>
+				<p>
+					<a href="https://appseed.us/" rel="noreferrer" target="_blank">&copy; AppSeed</a> 					
+					&nbsp; &bull; &nbsp; 					
+					<a href="https://github.com/app-generator/sample-tremor-github-charts" rel="noreferrer" target="_blank">Sources</a>
+				</p>
 			</form>
 		</div>
 	);

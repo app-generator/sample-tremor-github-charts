@@ -9,8 +9,8 @@ Open-source Sample built with `React`, `Tremor` and `GitHub API` - Actively supp
 
 > Features mirrored from [Svelte Coderstats](https://github.com/wobsoriano/coderstats), crafted by `Robert Soriano`  
 
-- ✅ Stack: React & Tremor
-- ✅ GitHub API for charts
+- ✅ Stack: `React` & `Tremor`
+- ✅ `GitHub API` for charts data
 
 <br />
 
@@ -20,10 +20,9 @@ Open-source Sample built with `React`, `Tremor` and `GitHub API` - Actively supp
 
 ## How to use it 
 
-- Install `NodejS` - version 14.x or higher 
-  - Project tested with **v16.0.0**
+Install `NodejS` version 14.x or higher (tested with **v16.0.0**)
 
-> Install dependencies 
+> 👉 Install dependencies 
 
 ```bash
 $ npm i
@@ -33,7 +32,7 @@ $ yarn
 
 <br />
 
-> Start in development mode 
+> 👉 Start in development mode 
 
 ```bash
 $ npm run start

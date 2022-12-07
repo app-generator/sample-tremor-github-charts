@@ -33,7 +33,7 @@ const Header = ({ data }) => {
 					<Link to='/' className='home__link'>
 						Home
 					</Link>
-					<a href='https://github.com' target='_blank' rel='noreferrer'>
+					<a href='https://github.com/app-generator/sample-tremor-github-charts' target='_blank' rel='noreferrer'>
 						GitHub
 					</a>
 				</div>

@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Space Grotesk", sans-serif;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+input {
+	padding: 20px;
+	background-color: #3a5ba0;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	width: 50%;
+	color: #fff;
+}
+label {
+	color: #fff;
+	font-size: 36px;
+}
+a {
+	text-decoration: none;
+	color: #ddd;
+}
+.home {
+	background-color: #21325e;
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.home__form {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.home__form > * {
+	margin-bottom: 30px;
+}
+.githubIcon {
+	font-size: 70px;
+	color: #7fb5ff;
+	margin-bottom: 20px;
+}
+.profile__header {
+	width: 100%;
+	background-color: #21325e;
+	min-height: 80vh;
+	padding-bottom: 40px;
+}
+.profile__nav {
+	width: 100%;
+	height: 10vh;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.profile__nav h2 {
+	color: #c4ddff;
+}
+.profile__links {
+	display: flex;
+	align-items: center;
+}
+.home__link {
+	margin-right: 20px;
+}
+.loading {
+	height: 100vh;
+	background-color: #21325e;
+	color: #fff;
+}
+.loading,
+.profile___section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.profile__image {
+	border: 10px solid #7fb5ff;
+	border-radius: 50%;
+	width: 150px;
+	object-fit: contain;
+	margin-bottom: 20px;
+}
+.profile___section > h1 {
+	color: #fff;
+	margin-bottom: 10px;
+}
+.profile__url {
+	color: #7fb5ff;
+	font-size: 20px;
+}
+.profile__url:hover,
+.errorContainer > a:hover {
+	text-decoration: underline;
+}
+.profile__info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 15px;
+}
+.profile__details {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+}
+.profile__details div {
+	background-color: #3a5ba0;
+	padding: 20px;
+	margin: 10px;
+	text-align: center;
+	border-radius: 5px;
+	width: 150px;
+}
+.profile__text {
+	color: #fff;
+	font-size: 26px;
+}
+
+.card__container,
+.repos__container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 30px 0px;
+}
+.card__container > div {
+	height: 400px;
+	width: 30%;
+	margin: 10px;
+	padding: 20px;
+}
+.repo {
+	box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.15);
+	width: 350px;
+	min-height: 200px;
+	margin: 15px;
+	padding: 20px;
+	position: relative;
+}
+#repo__name,
+#repo__description {
+	margin-bottom: 20px;
+}
+.repo__icons {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 80%;
+	position: absolute;
+	bottom: 20px;
+}
+.repo__icons div {
+	display: flex;
+	align-items: baseline;
+}
+.repo__icons div > p {
+	font-size: 12px;
+	margin-left: 5px;
+}
+footer {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 30vh;
+}
+.errorContainer {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #21325e;
+}
+.errorContainer h2 {
+	margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+	.home__form {
+		padding: 20px;
+	}
+	label {
+		font-size: 22px;
+	}
+	input,
+	.card__container > div {
+		width: 100%;
+	}
+	.profile__text {
+		font-size: 16px;
+	}
+	.profile__details div {
+		width: auto;
+	}
+}

@@ -2,8 +2,8 @@
 
 Open-source Sample built with `React`, `Tremor` and `GitHub API` - Actively supported by [AppSeed](https://appseed.us).
 
-  - 👉 [GitHub API & Tremor](https://sample-tremor-github-charts.appseed-srv1.com/) - `LIVE demo`
-- 🚀 [Free Support](https://appseed.us/support/) via `Email` & `Discord`
+- 👉 [GitHub API & Tremor](https://sample-tremor-github-charts.appseed-srv1.com/) - `LIVE demo`
+- 👉 [Data visualization using React and Tremor](https://blog.appseed.us/data-visualization-react-and-tremor-with-sample/) - related `blog article`
 
 <br />
 

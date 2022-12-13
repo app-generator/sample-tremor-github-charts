@@ -28,7 +28,7 @@ const Header = ({ data }) => {
 	return (
 		<header className='profile__header'>
 			<nav className='profile__nav'>
-				<h2>Coder Stats</h2>
+				<h2 className='logo__title'>Coder Stats</h2>
 				<div className='profile__links'>
 					<Link to='/' className='home__link'>
 						Home

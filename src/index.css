@@ -209,3 +209,11 @@ footer {
 		width: auto;
 	}
 }
+@media screen and (max-width: 600px) {
+	.logo__title {
+		font-size: 18px;
+	}
+	.profile__details {
+		flex-direction: column;
+	}
+}
